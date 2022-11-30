@@ -25,7 +25,7 @@ proxies:
     path: /terong
     headers:
       Host: b19f.vpsxc.my.id      
-- name: AKRAB_GAYENG_6
+- name: AKRAB_SG_OVH_06
   type: trojan
   server: kno2fy.com
   port: 443
