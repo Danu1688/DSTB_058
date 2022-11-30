@@ -3,15 +3,15 @@ proxies:
   type: trojan
   server: kno2fy.com
   port: 443
-  password: d09f6dd6-ac2d-4764-881b-82232d9e9677
+  password: b0c69b30-70d9-11ed-b839-225401db9d57
   udp: true
-  sni: do-gayeng.potatonc.my.id
+  sni: sg-ovh.tjvpn.org
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojanws
     headers:
-      Host: do-gayeng.potatonc.my.id
+      Host: sg-ovh.tjvpn.org
 - name: AKRAB_TERONG
   type: trojan
   server: kno2fy.com
