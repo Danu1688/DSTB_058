@@ -25,3 +25,16 @@ proxies:
     path: /fastssh
     headers:
       Host: sg-ovh.tjvpn.org
+- name: AKRAB_GAYENG_6
+  type: trojan
+  server: kno2fy.com
+  port: 443
+  password: c2b5c9e5-5c13-4a5f-808c-6ba64e1deadc
+  udp: true
+  sni: do-gayeng.potatonc.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-gayeng.potatonc.my.id
