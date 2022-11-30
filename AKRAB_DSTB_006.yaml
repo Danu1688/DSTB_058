@@ -3,7 +3,7 @@ proxies:
   type: trojan
   server: kno2fy.com
   port: 443
-  password: c2b5c9e5-5c13-4a5f-808c-6ba64e1deadc
+  password: a1e5fc61-b8a2-4409-a18d-5b7cf322bca1
   udp: true
   sni: do-gayeng.potatonc.my.id
   skip-cert-verify: true
