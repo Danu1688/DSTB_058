@@ -1,7 +1,7 @@
 proxies:
 - name: AKRAB_GAYENG_06
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: c2b5c9e5-5c13-4a5f-808c-6ba64e1deadc
   udp: true
