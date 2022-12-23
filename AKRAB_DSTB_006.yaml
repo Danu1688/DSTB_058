@@ -51,33 +51,3 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-do2.sshpremium.my.id
-- name: danu04
-  type: trojan
-  server: sg-cth.sshpremium.my.id
-  port: 443
-  password: 2d0c0e9e-1bc7-473c-8943-3408cfb0f8cb
-  udp: true
-  sni: teams.live.com
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan-grpc
-- name: danu05
-  type: trojan
-  server: sg-do2.sshpremium.my.id
-  port: 443
-  password: c1b0678d-6439-4893-a186-456e338c6fae
-  udp: true
-  sni: teams.live.com
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan-grpc
-- name: danugfw01
-  type: trojan
-  server: sg-do2.sshpremium.my.id
-  port: 443
-  password: f85f8b68-2b62-42c9-81cb-c353cb902301
-  udp: true
-  sni: teams.live.com
-  skip-cert-verify: true
