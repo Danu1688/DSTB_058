@@ -25,7 +25,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacefront-cf.zoom.us
-- name: danuWs02-SNI-Gomarket1
+- name: danuWs06-SNI-Gomarket1
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
@@ -38,7 +38,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacecontent-cf.zoom.us
-- name: danuWs02-SNI-Gomarket2
+- name: danuWs06-SNI-Gomarket2
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacefront-cf.zoom.us
-- name: danuWs02-SNI-StoreZoom
+- name: danuWs06-SNI-StoreZoom
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
@@ -64,7 +64,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: store.zoom.us
-- name: danuWs02-SNI-TeamsLive
+- name: danuWs06-SNI-TeamsLive
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
