@@ -1,9 +1,9 @@
 proxies:
-- name: danuWs06-Vision+A
+- name: danuWs05-Vision+_A
   type: trojan
   server: 104.21.235.171
   port: 443
-  password: 44912509-364c-4b1a-91bf-ad449e03f561
+  password: 5ca60014-86b6-4314-a650-4d9cebfaf3b0
   udp: true
   sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
@@ -12,11 +12,11 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs06-Vision+B
+- name: danuWs05-Vision+_B
   type: trojan
   server: visionplus.id
   port: 443
-  password: 44912509-364c-4b1a-91bf-ad449e03f561
+  password: 5ca60014-86b6-4314-a650-4d9cebfaf3b0
   udp: true
   sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
@@ -25,11 +25,11 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs06-Vision+C
+- name: danuWs05-Vision+_C
   type: trojan
   server: api.visionplus.id
   port: 443
-  password: 44912509-364c-4b1a-91bf-ad449e03f561
+  password: 5ca60014-86b6-4314-a650-4d9cebfaf3b0
   udp: true
   sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
@@ -38,24 +38,11 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs06-Vision+D
+- name: danuWs05-Vision+_D
   type: trojan
   server: cdnodeb.visionplus.id
   port: 443
-  password: 44912509-364c-4b1a-91bf-ad449e03f561
-  udp: true
-  sni: sg-ctn.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-ctn.sshpremium.my.id
-- name: danuWs06-Vision+E
-  type: trojan
-  server: stream.visionplus.id
-  port: 443
-  password: 44912509-364c-4b1a-91bf-ad449e03f561
+  password: 5ca60014-86b6-4314-a650-4d9cebfaf3b0
   udp: true
   sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
